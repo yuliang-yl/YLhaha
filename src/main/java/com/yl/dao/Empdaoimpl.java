@@ -13,6 +13,7 @@ public class Empdaoimpl implements Empdao {
     public List<Emp> findall() {
         String hql="12312";
         System.out.println("hql = " + hql);
+        System.out.println("123456");
         return null;
     }
 }
