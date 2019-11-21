@@ -11,8 +11,8 @@ import java.util.List;
 public class Empdaoimpl implements Empdao {
 
     public List<Emp> findall() {
-        String hql="";
-
+        String hql="12312";
+        System.out.println("hql = " + hql);
         return null;
     }
 }
