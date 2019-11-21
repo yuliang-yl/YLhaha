@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.yl.po" >
+
+    <class name="com.yl.po.Emp" table="emp" schema="propect001">
+        <id name="id" column="id"/>
+        <property name="jobId" column="jobId"/>
+        <property name="name" column="name"/>
+        <property name="age" column="age"/>
+        <property name="salary" column="salary"/>
+        <property name="dept" column="dept"/>
+    </class>
+</hibernate-mapping>
